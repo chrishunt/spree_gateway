@@ -15,10 +15,11 @@ script:
 #       - "irc.freenode.org#spree"
 branches:
   only:
-    - 1-0-stable
-    - 1-1-stable
-    - 1-2-stable
-    - master
+    - chrishunt/fix-travis-ci
+    #    - 1-0-stable
+    #    - 1-1-stable
+    #    - 1-2-stable
+    #    - master
 rvm:
   - 1.8.7
   - 1.9.3
